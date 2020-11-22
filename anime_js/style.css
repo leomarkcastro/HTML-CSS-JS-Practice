@@ -1,0 +1,36 @@
+* { 
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    color: #222222;
+    font-size: 20px;
+    font-family: monospace;
+    
+    background-color: white;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    
+}
+
+/*************************************************/
+/***********     shapes_template
+/*************************************************/
+
+.container{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.rect{
+    width: 50px;
+    height: 5px;
+    background-color: white;
+    margin: 5px
+}
+

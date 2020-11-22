@@ -1,0 +1,39 @@
+* { 
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    color: #222222;
+    font-size: 20px;
+    font-family: monospace;
+    
+    background-color: darkgrey;
+    overflow: hidden;
+    text-rendering: optimizeLegibility;
+    
+}
+
+/*************************************************/
+/***********     shapes_template
+/*************************************************/
+
+.container{
+    
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    width: 100vw;
+    height: 95vh;
+    
+}
+
+.rect{
+    color: transparent;
+    background-color: #500;
+    height: 100%;
+    
+    
+    border: 1px solid black;
+}
