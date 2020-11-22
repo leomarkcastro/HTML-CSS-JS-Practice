@@ -1,0 +1,25 @@
+* { 
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    color: #222222;
+    font-size: 20px;
+    font-family: monospace;
+    
+    background-color: white;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+}
+
+.zdog-canvas1{
+    background-color: skyblue;
+    border-radius: 50px;
+}
+
+.zdog-canvas2{
+    background-color: orange;
+    border-radius: 50px;
+}
