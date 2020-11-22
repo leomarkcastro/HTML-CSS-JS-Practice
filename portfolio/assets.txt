@@ -1,0 +1,37 @@
+Color:
+
+#b67929 - yellow
+#a3acb1 - very light blue
+#a3acb1 - light blue
+#264b77 - blue 
+#00243f - dark blue
+
+--------------------------------------------------------------
+
+Icon:
+
+ion-social-facebook
+ion-social-twitter
+ion-social-linkedin
+ion-ios-email
+
+ion-university
+ion-ios-paper
+ion-information-circled
+
+ion-social-github
+ion-social-html5
+ion-social-javascript
+ion-social-python
+ion-social-codepen
+
+
+--------------------------------------------------------------
+
+Photos:
+
+Photo by Ilya Pavlov on Unsplash
+Photo by Andras Vas on Unsplash
+Photo by Ben Kolde on Unsplash
+Photo by Harrison Broadbent on Unsplash
+Photo by Element5 Digital on Unsplash

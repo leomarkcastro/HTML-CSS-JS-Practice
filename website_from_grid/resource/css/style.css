@@ -1,0 +1,47 @@
+* { 
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    color: #222222;
+    font-size: 20px;
+    font-family: monospace;
+    
+    background-color: white;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+}
+
+.hero {
+
+    width: 100vw;
+
+    
+
+    padding: 20px 30px;
+
+}
+
+@media (min-width: 768px){
+    .hero {
+        
+        display: grid;
+        
+        grid-template-columns: repeat(3, 1fr);
+        
+        /*grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));*/
+        
+        grid-gap: 20px;
+
+    }
+}
+
+.hero_1 {
+  grid-column: span 2; /* Spans two columns */
+}
+
+.hero_2 {
+    
+}

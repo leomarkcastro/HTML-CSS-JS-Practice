@@ -1,0 +1,134 @@
+* { 
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    
+    font-size: 62.5%;
+    
+}
+
+
+body{
+    color: #222222;
+    font-size: 2rem;
+    font-family: monospace;
+    
+    background-color: white;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+}
+
+/*************************************************/
+/***********     sections
+/*************************************************/
+
+.sections{
+    
+    height: 100vh;
+    
+}
+
+.section_header{
+    background-image: radial-gradient(circle, rgba(0,0,0,0.7962535355939251) 0%, rgba(0,0,0,0.5301470930168943) 23%, rgba(0,0,0,0) 100%), url("img/location1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+    transition: all 0.15s;
+    
+    overflow: hidden;
+}
+
+.section_body{
+    
+    background-color: lightgray;
+    overflow-y: hidden;
+    
+    padding-bottom: 0px;
+    
+    height: 115vh;
+}
+
+.section_footer{
+    background-image: radial-gradient(circle, rgba(0,0,0,0.7962535355939251) 0%, rgba(0,0,0,0.5301470930168943) 23%, rgba(0,0,0,0) 100%), url("img/location2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+    transition: all 0.15s;
+    
+    overflow-y: hidden;
+}
+
+
+
+/*************************************************/
+/***********     text
+/*************************************************/
+
+.display-1{
+    
+    font-size: 8rem;
+    
+}
+
+/*************************************************/
+/***********     header
+/*************************************************/
+
+.header_content,
+.footer_content{
+    
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.header_hero{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    backface-visibility: hidden;
+    color:white;
+    
+}
+
+/*************************************************/
+/***********     body
+/*************************************************/
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 2.5%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.body_image{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}

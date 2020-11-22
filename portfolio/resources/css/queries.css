@@ -1,0 +1,295 @@
+
+@media only screen and (max-width:1200px){
+   
+    .row{
+        padding: 0 2%;
+        width: auto;
+    }
+    
+    body {
+        font-size: 19px;
+    }
+   
+}
+
+@media only screen and (max-width:1140px){
+    
+    .row{
+        padding: 0 2%;
+        width: auto;
+    }
+    
+    body {
+        font-size: 18px;
+    }
+    
+    .profile-pan-caption {
+        position: absolute;
+        top: 87%;
+        padding-left: 30px;
+    }
+    
+    .projContainerCaption{
+        position:absolute;
+        bottom: 5%;
+        color: #f2ebeb;
+        padding-left: 20px;
+    }
+    
+}
+
+@media only screen and (max-width:1050px){
+    
+    .row{
+        padding: 0 2%;
+        width: auto;
+    }
+    
+    body {
+        font-size: 18px;
+    }
+    
+    .profile-pan-caption {
+        position: absolute;
+        top: 80%;
+        padding-left: 30px;
+    }
+    
+    .projContainerCaption{
+        position:absolute;
+        bottom: 5%;
+        color: #f2ebeb;
+        padding-left: 20px;
+    }
+    
+}
+
+@media only screen and (max-width:787px){
+    
+    .row{
+        padding: 0 2%;
+        width: auto;
+    }
+    
+    body {
+        font-size: 15px;
+    }
+    
+    .profile-pan-caption {
+        position: absolute;
+        top: 80%;
+        padding-left: 30px;
+    }
+    
+    .projContainerCaption{
+        position:absolute;
+        color: #f2ebeb;
+        padding-left: 20px;
+        top: 50%;
+    }
+    
+    .btn-print{
+        border: 2px solid rgba(40, 119, 212, 0.32);
+        background-color: rgba(0,0,0,0,0);
+        width: 150px;
+        margin: 0 auto;
+        margin-top: 40px;
+        text-align: center;
+        color: #d9d9d9;
+        transition: border 0.2s, background-color 0.2s;
+    }
+
+    .btn-print:hover,
+    .btn-print:active{
+        border: 2px solid #b67929;
+        background-color: rgba(182, 121, 41, 0.69);
+        width: 150px;
+        margin: 0 auto;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    
+
+@media only screen and (max-width:480px){
+    
+    .row{
+        padding: 0 1%;
+        width: auto;
+    }
+    
+    body {
+        font-size: 18px;
+    }
+    
+    .profile-pan-caption {
+        position: sticky;
+        top: 45%;
+        padding-left: 30px;
+    }
+    
+    .projContainerCaption{
+        position:absolute;
+        color: #f2ebeb;
+        padding-left: 20px;
+        top: 50%;
+    }
+    
+    .btn-print{
+        border: 2px solid rgba(40, 119, 212, 0.32);
+        background-color: rgba(0,0,0,0,0);
+        width: 150px;
+        margin: 0 auto;
+        margin-top: 40px;
+        text-align: center;
+        color: #d9d9d9;
+        transition: border 0.2s, background-color 0.2s;
+    }
+
+    .btn-print:hover,
+    .btn-print:active{
+        border: 2px solid #b67929;
+        background-color: rgba(182, 121, 41, 0.69);
+        width: 150px;
+        margin: 0 auto;
+        margin-top: 40px;
+        text-align: center;
+    }
+    
+    .profile-info {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90vw;
+    }
+    
+    .profile-info p,
+    .profile-info ul li{
+        padding: 10px
+    }
+    
+    
+    nav {
+        display: none;
+    }
+    
+    .profile-height {
+        position: relative;
+        height: 50vh;
+        background-color: #264b77;
+    }
+    
+    .profile-pane {
+        margin-left: 0;
+    }
+    
+    .cred-infopane h5{
+        padding-top: 5px;
+        text-align: left;
+        padding: 0 15px;
+    }
+    
+    .profile-pane img {
+        border-radius: 100%;
+        padding-left:20%;
+        padding-right:20%;
+        width: 75%;
+    }
+    
+    .projContainer {
+        margin-bottom: 5px;
+        
+    }
+    
+}
+    
+@media only screen and (max-width:320px){
+    
+    .row{
+        padding: 0 1%;
+        width: auto;
+    }
+    
+    body {
+        font-size: 13px;
+    }
+    
+    .profile-pan-caption {
+        position: sticky;
+        top: 45%;
+        padding-left: 13px;
+    }
+    
+    .projContainerCaption{
+        position:absolute;
+        color: #f2ebeb;
+        padding-left: 20px;
+        top: 50%;
+    }
+    
+    .btn-print{
+        border: 2px solid rgba(40, 119, 212, 0.32);
+        background-color: rgba(0,0,0,0,0);
+        width: 150px;
+        margin: 0 auto;
+        margin-top: 40px;
+        text-align: center;
+        color: #d9d9d9;
+        transition: border 0.2s, background-color 0.2s;
+    }
+
+    .btn-print:hover,
+    .btn-print:active{
+        border: 2px solid #b67929;
+        background-color: rgba(182, 121, 41, 0.69);
+        width: 150px;
+        margin: 0 auto;
+        margin-top: 40px;
+        text-align: center;
+    }
+    
+    .profile-info {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90vw;
+    }
+    
+    .profile-info p,
+    .profile-info ul li{
+        padding: 10px
+    }
+    
+    
+    nav {
+        display: none;
+    }
+    
+    .profile-height {
+        position: relative;
+        height: 50vh;
+        background-color: #264b77;
+    }
+    
+    .profile-pane {
+        margin-left: 0;
+    }
+    
+    .cred-infopane h5{
+        padding-top: 5px;
+        text-align: left;
+        padding: 0 15px;
+    }
+    
+    .profile-pane img {
+        border-radius: 100%;
+        padding-left:20%;
+        padding-right:20%;
+        width: 75%;
+    }
+    
+}
+    
+}
